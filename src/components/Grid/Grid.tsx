@@ -8,7 +8,7 @@ export default function Grid(){
     for(let i = 0; i < gameScale; i++){
         for(let j = 0; j < gameScale; j++){
             cells.push(
-                <GridCell />
+                <GridCell x={i} y={j} />
             )
         }    
     }
