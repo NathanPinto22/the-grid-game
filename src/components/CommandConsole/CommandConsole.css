@@ -1,0 +1,27 @@
+.command-console{
+    background-color: #000;
+    border-radius: 24px;
+    width: 30%;
+}
+
+.cc-header{
+    background-color: var(--surface-bright);
+    color: var(--text-secondary);
+}
+
+.cc-input{
+    background: none;
+}
+
+#command-in{
+    background: none;
+    border: none;
+    color: var(--primary);
+    outline: none;
+    flex: 1;
+}
+
+
+.cc-line{
+    display: flex;
+}

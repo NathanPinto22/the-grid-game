@@ -1,0 +1,64 @@
+@import url("https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700&family=Space+Mono:wght@400;700&display=swap");
+
+:root {
+  /* Main surfaces */
+  --surface: #11140f;
+  --surface-dim: #11140f;
+  --surface-bright: #373a34;
+  --surface-lowest: #0c0f0a;
+  --surface-low: #191c17;
+  --surface-container: #1d211b;
+  --surface-high: #282b25;
+  --surface-highest: #33362f;
+
+  /* Text */
+  --text-primary: #e1e3da;
+  --text-secondary: #b9ccb5;
+  --text-inverse: #2e312b;
+
+  /* Borders */
+  --border: #849581;
+  --border-variant: #3b4b3a;
+
+  /* Primary phosphor */
+  --primary: #00ff66;
+  --primary-bright: #edffe8;
+  --primary-dark: #007128;
+
+  /* Secondary phosphor */
+  --secondary: #4de082;
+  --secondary-dark: #00b55d;
+
+  /* Tertiary */
+  --tertiary: #69f6b9;
+  --tertiary-dark: #006f4c;
+
+  /* Functional */
+  --warning: #ffb000;
+  --error: #ffb4ab;
+  --error-dark: #93000a;
+
+  /* Fonts */
+  --font-display: "Space Mono", monospace;
+  --font-mono: "JetBrains Mono", monospace;
+}
+
+
+/* Global base */
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  margin: 0;
+  min-height: 100%;
+}
+
+body {
+  background: var(--surface);
+  color: var(--text-primary);
+  font-family: var(--font-mono);
+}

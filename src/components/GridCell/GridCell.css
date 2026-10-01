@@ -1,0 +1,5 @@
+.game-grid .grid-cell{
+    background-color: #191c17;
+    border: 1px solid var(--primary-dark);
+    aspect-ratio: 1;
+}
